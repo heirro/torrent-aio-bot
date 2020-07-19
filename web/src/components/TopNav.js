@@ -6,8 +6,8 @@ export default function TopNav({ nav }) {
     <div className="nav nav-horiz">
       <div className="content">
         <ul className="d-flex align-items-center space-around width-100 m-0">
-          <li className={`cursor-pointer p-0 ph-1 height-100 d-flex align-items-center${nav === "search" ? " border-bottom-1" : ""}`}>
-            <Link to="/search" className="height-100 d-flex align-items-center">
+          <li className={`cursor-pointer p-0 ph-1 height-100 d-flex align-items-center${nav === "pages" ? " border-bottom-1" : ""}`}>
+            <Link to="/pages" className="height-100 d-flex align-items-center">
               <i className="h2 m-0 d-flex align-items-center">
                 <ion-icon name="home-outline" />
               </i>
