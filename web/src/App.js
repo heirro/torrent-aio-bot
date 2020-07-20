@@ -8,10 +8,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/drive/:folderId?">
-          <Home tab="drive" />
-        </Route>
+        <Route exact path="/" component={Download} />
         <Route exact path="/download">
           <Home tab="downloads" />
         </Route>
