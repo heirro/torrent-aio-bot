@@ -8,7 +8,9 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/download" component={Downloads} />
+        <Route exact path="/download" component={Downloads} >
+          <Home tab="downloads" />
+        </Route>
         <Route exact path="/drivehelp" component={DriveHelp} />
       </Switch>
     </Router>
