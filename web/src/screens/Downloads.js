@@ -58,9 +58,9 @@ function Downloads() {
           ))}
         </div>
       )}
-    </>
  </div>
     </main>
+    </>
   );
 }
 
