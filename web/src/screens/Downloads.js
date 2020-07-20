@@ -32,8 +32,9 @@ function Downloads() {
 
   return (
     <>
+    <main>
+      <div className="content">
       <h1>Downloads</h1>
-
       <form onSubmit={add}>
         <Input
           id="link"
@@ -58,6 +59,8 @@ function Downloads() {
         </div>
       )}
     </>
+ </div>
+    </main>
   );
 }
 
