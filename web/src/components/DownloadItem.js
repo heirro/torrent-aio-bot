@@ -51,7 +51,7 @@ function DownloadItem({ torrent }) {
           </button>
         )}
         {torrent.done && (
-          <a href=`https://sgb:sgbteam@sgbteam.zeth.workers.dev/${torrent.name}` target="_blank" className="btn success">
+          <a href="https://sgb:sgbteam@sgbteam.zeth.workers.dev/${torrent.name}" target="_blank" className="btn success">
             Open
           </a>
         )}
